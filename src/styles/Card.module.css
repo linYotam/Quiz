@@ -1,0 +1,78 @@
+.Card {
+  border-bottom: 0.794239px solid #dbdef0;
+  transform: rotate(-0.05deg);
+  width: 400px;
+  margin-bottom: 10px;
+}
+
+.question {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #293264;
+  margin-bottom: 12px;
+  width: 350px;
+}
+
+.buttons {
+  display: flex;
+  gap: 13px;
+  margin-bottom: 10px;
+}
+
+.answerBtn {
+  border: 1px solid #4d5b9e;
+  border-radius: 8px;
+  background-color: white;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 15px;
+  text-align: center;
+  color: #293264;
+}
+
+.answerBtn:hover {
+  background-color: #d6dbf5;
+}
+
+.selectedBtn {
+  border: 1px solid #4d5b9e;
+  border-radius: 8px;
+  background-color: #d6dbf5;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 15px;
+  text-align: center;
+  color: #293264;
+}
+
+.correct {
+  border: 1px solid #4d5b9e;
+  border-radius: 8px;
+  background-color: #94d7a2;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 15px;
+  text-align: center;
+  color: #293264;
+}
+
+.wrong {
+  border: 1px solid #4d5b9e;
+  border-radius: 8px;
+  background-color: #f8bcbc;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 15px;
+  text-align: center;
+  color: #293264;
+}
